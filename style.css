@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 20px;
+    background-color: rgb(166, 141, 224);
+    color: rgb(32, 14, 14);
+}
+body{
+    background-color: rgb(196, 212, 218);
+}
+.section{
+    margin: 60px;
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 121, 24);
+}
+section{
+    display: flex;
+}
+.divForm *{
+    width: 100%;
+}
+.divForm{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+input, select, textarea{
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+.children{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 184, 189);
+    width: 40%;
+}
+#fatherChildren{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.quit{
+    float: right;
+    cursor: pointer;
+}
+#form{
+    width: 100%;
+}
+.textBalance{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+@media (max-width: 1110px) {
+    section {
+        display: grid;
+        justify-items: center;
+      }
+      #fatherChildren {
+        justify-content: center;
+      }
+}
